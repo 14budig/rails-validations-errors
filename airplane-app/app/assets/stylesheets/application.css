@@ -14,6 +14,15 @@
  *= require_self
  */
 
+input:focus:invalid {
+  border: 1px solid red;
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:valid {
+  border: 1px solid green;
+  box-shadow: 0 0 5px 1px green;
+}
 
 .error {
   background-color: salmon;
